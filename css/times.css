@@ -1,84 +1,115 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
 *,
 *::after,
-*::before{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*::before {
+    box-sizing: inherit;
 }
-html{
-    font-size: 16px;
-    line-height: 1.6;
+
+body {
     /*font-family: font stack required for body text */
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
 }
-h1, h2, h3, h4{
+
+h1, h2, h3, h4 {
     /*font-family: font stack required for headings */
 }
-p{
+
+p {
     
 }
-.container{
+
+.container {
     
 }
-.subnav{
+
+.subnav {
     
 }
-.subnav a{
+
+.subnav a {
     
 }
-.mainnav{
+
+.mainnav {
     
 }
-.mainnav a{
+
+.mainnav a {
     
 }
-.masthead{
+
+.masthead {
     
 }
-.times-logo{
+
+.times-logo {
     
 }
-.masthead h1{
+
+.masthead h1 {
     
 }
-.content{
+
+.content {
     
 }
-.content .story{
+
+.content .story {
     
 }
-.story.lead-story{
+
+.story.lead-story {
     
 }
-h1.story-title{
+
+h1.story-title {
     
 }
-.story img{
+
+.story img {
     
 }
-.story p{
+
+.story p {
     
 }
-.story blockquote{
+
+.story blockquote {
     quotes: "\201E" "\201D";
 }
-.story blockquote::before{
+
+.story blockquote::before {
     content: open-quote;
 }
-.story blockquote::after{
+
+.story blockquote::after {
     content: close-quote;
 }
-.story p.byline{
+
+.story p.byline {
     
 }
-p.byline span.author{
+
+p.byline span.author {
     
 }
-p.byline span.pub{
+
+p.byline span.pub {
     
 }
-.foot{
+
+.foot {
     
 }
-.foot p{
+
+.foot p
+{
     
 }
