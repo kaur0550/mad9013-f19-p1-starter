@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:700i|Dosis:300&display=swap');
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -15,10 +16,16 @@ body {
     line-height: 1.4;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 h1, h2, h3, h4 {
     /*font-family: font stack required for headings */
+}
+h1{
+    display: flex;
+    justify-content: center;
 }
 
 p {
@@ -26,19 +33,28 @@ p {
 }
 
 .container {
-    
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .subnav {
-    
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid;
+    padding: 2rem;
 }
 
 .subnav a {
-    
+    padding-left: 1rem;
 }
 
 .mainnav {
-    
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 2rem;
 }
 
 .mainnav a {
@@ -62,11 +78,13 @@ p {
 }
 
 .content .story {
-    
+    border: 1px solid;
+    padding: 2rem;
 }
 
 .story.lead-story {
-    
+    border: 1px solid;
+    padding: 2rem;
 }
 
 h1.story-title {
@@ -106,7 +124,8 @@ p.byline span.pub {
 }
 
 .foot {
-    
+    border: 1px solid;
+    padding: 2rem;
 }
 
 .foot p
